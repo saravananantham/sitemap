@@ -27,7 +27,7 @@ class <%= class_name %> < ActiveRecord::Migration
       t.string :frequency_show
       t.float :priority
       t.string :custom_finder
-      
+      t.string :dynamic_path
       t.timestamps
     end
     
